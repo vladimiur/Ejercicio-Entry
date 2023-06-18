@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio_Entry.MainPage">
+
+    <!--#Aprendemos a usar los Entry-->
+    <StackLayout Margin="20, 35, 20, 20">
+        <Entry Placeholder="Usuario" MaxLength="10" IsSpellCheckEnabled="True" IsTextPredictionEnabled="True"
+               IsPassword="True" Keyboard="Numeric" CharacterSpacing="10" TextChanged="Entry_TextChanged"
+               Completed="Entry_Completed" TextColor="Pink"></Entry>
+    </StackLayout>
+
+</ContentPage>
